@@ -5,8 +5,8 @@ export default function Header() {
         <header>
             <nav>
                 <Link href="/" >Startseite</Link>
-                <Link href="/dessert" >Veggie</Link>
-                <Link href="/veggie" >Desserts</Link>
+                <Link href="https://recipes-app-sage.vercel.app/veggie" >Veggie</Link>
+                <Link href="https://recipes-app-sage.vercel.app/dessert" >Desserts</Link>
             </nav>
         </header>
     )
