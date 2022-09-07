@@ -3,11 +3,9 @@ import Link from 'next/link';
 export default function Header() {
     return (
         <header>
-            <nav>
-                <Link href="/" >Startseite</Link>
-                <Link href="https://recipes-app-sage.vercel.app/veggie" >Veggie</Link>
-                <Link href="https://recipes-app-sage.vercel.app/dessert" >Desserts</Link>
-            </nav>
+            <Link href="/" ><a>Startseite</a></Link>
+            <Link href="/veggie" ><a>Veggie</a></Link>
+            <Link href="/dessert" ><a>Desserts</a></Link>
         </header>
     )
 }
